@@ -10,7 +10,7 @@ import { HiOutlineSupport } from "react-icons/hi";
 import { HiOutlineCursorArrowRipple } from "react-icons/hi2";
 import { AiOutlineSetting } from "react-icons/ai";
 import { BiUser, BiX, BiSolidMapPin, BiHash } from "react-icons/bi";
-import { RxCross2} from "react-icons/rx";
+import { RxCross2 } from "react-icons/rx";
 import user_img from "../../images/user_img.png";
 import videsify_logo from "../../images/videsify_logo.png";
 
@@ -36,7 +36,7 @@ const Sidebar = (props) => {
           </Link>
 
           <button className="cut-btn" onClick={() => props.func()}>
-           <RxCross2/>
+            <RxCross2 />
           </button>
         </div>
         <ul>
@@ -63,21 +63,30 @@ const Sidebar = (props) => {
             </Link>
           </li>
 
-          <li     onClick={() => props.func()} className={pathname == "bookingdash" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "bookingdash" && "active"}
+          >
             {" "}
             <Link to={"bookingdash"} className="nav-anchor">
               <BiUser className="fas" />{" "}
               <span className="nav-item">Booking </span>
             </Link>
           </li>
-          <li     onClick={() => props.func()}  className={pathname == "inquiry" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "inquiry" && "active"}
+          >
             {" "}
             <Link to={"inquiry"} className="nav-anchor">
               <BiUser className="fas" />{" "}
               <span className="nav-item">My Inquiry </span>
             </Link>
           </li>
-          <li     onClick={() => props.func()} className={pathname == "myplans" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "myplans" && "active"}
+          >
             {" "}
             <Link to={"myplans"} className="nav-anchor">
               <BiUser className="fas" />{" "}
@@ -85,7 +94,10 @@ const Sidebar = (props) => {
             </Link>
           </li>
 
-          <li     onClick={() => props.func()} className={pathname == "planbilling" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "planbilling" && "active"}
+          >
             {" "}
             <Link to={"planbilling"} className="nav-anchor">
               <BiSolidMapPin className="fas" />{" "}
@@ -93,7 +105,10 @@ const Sidebar = (props) => {
             </Link>
           </li>
 
-          <li     onClick={() => props.func()} className={pathname == "community" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "community" && "active"}
+          >
             {" "}
             <Link to={"community"} className="nav-anchor">
               <BiHash className="fas" />{" "}
@@ -101,14 +116,20 @@ const Sidebar = (props) => {
             </Link>
           </li>
 
-          <li     onClick={() => props.func()} className={pathname == "messages" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "messages" && "active"}
+          >
             {" "}
             <Link to={"messages"} className="nav-anchor">
               <TiMessages className="fas" />{" "}
               <span className="nav-item">Messages</span>
             </Link>
           </li>
-          <li     onClick={() => props.func()} className={pathname == "payment" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "payment" && "active"}
+          >
             {" "}
             <Link to={"payment"} className="nav-anchor">
               <TiMessages className="fas" />{" "}
@@ -116,14 +137,20 @@ const Sidebar = (props) => {
             </Link>
           </li>
 
-          <li     onClick={() => props.func()} className={pathname == "notifications" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "notifications" && "active"}
+          >
             {" "}
             <Link to={"notifications"} className="nav-anchor">
               <MdNotificationsNone className="fas" />{" "}
               <span className="nav-item">Notifications</span>
             </Link>
           </li>
-          <li     onClick={() => props.func()} className={pathname == "counselor" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "counselor" && "active"}
+          >
             {" "}
             <Link to={"counselor"} className="nav-anchor">
               <MdNotificationsNone className="fas" />{" "}
@@ -131,28 +158,40 @@ const Sidebar = (props) => {
             </Link>
           </li>
 
-          <li     onClick={() => props.func()} className={pathname == "support" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "support" && "active"}
+          >
             {" "}
             <Link to={"support"} className="nav-anchor">
               <HiOutlineSupport className="fas" />{" "}
               <span className="nav-item">Support</span>
             </Link>
           </li>
-          <li     onClick={() => props.func()} className={pathname == "resourcecenter" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "resourcecenter" && "active"}
+          >
             {" "}
             <Link to={"resourcecenter"} className="nav-anchor">
               <HiOutlineSupport className="fas" />{" "}
               <span className="nav-item">Resource Center</span>
             </Link>
           </li>
-          <li     onClick={() => props.func()} className={pathname == "schedule" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "schedule" && "active"}
+          >
             {" "}
             <Link to={"schedule"} className="nav-anchor">
               <HiOutlineSupport className="fas" />{" "}
               <span className="nav-item">Schedule</span>
             </Link>
           </li>
-          <li     onClick={() => props.func()} className={pathname == "dailycaleneder" && "active"}>
+          <li
+            onClick={() => props.func()}
+            className={pathname == "dailycaleneder" && "active"}
+          >
             {" "}
             <Link to={"dailycaleneder"} className="nav-anchor">
               <HiOutlineSupport className="fas" />{" "}
@@ -161,21 +200,30 @@ const Sidebar = (props) => {
           </li>
           <div className="another-nav-section">
             <p>Settings</p>
-            <li    onClick={() => props.func()} className={pathname == "roles" && "active"}>
+            <li
+              onClick={() => props.func()}
+              className={pathname == "roles" && "active"}
+            >
               <Link to={"roles"} className="nav-anchor">
                 <BiUser className="fas" />{" "}
                 <span className="nav-item">Roles</span>
               </Link>
             </li>
 
-            <li    onClick={() => props.func()} className={pathname == "preferences" && "active"}>
+            <li
+              onClick={() => props.func()}
+              className={pathname == "preferences" && "active"}
+            >
               <Link to={"preferences"} className="nav-anchor">
                 <HiOutlineCursorArrowRipple className="fas" />{" "}
                 <span className="nav-item">Preferences</span>
               </Link>
             </li>
 
-            <li    onClick={() => props.func()} className={pathname == "profile" && "active"}>
+            <li
+              onClick={() => props.func()}
+              className={pathname == "profile" && "active"}
+            >
               <Link to={"profile"} className="nav-anchor">
                 <AiOutlineSetting className="fas" />{" "}
                 <span className="nav-item">Profile</span>
