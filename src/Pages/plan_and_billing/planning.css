@@ -1,0 +1,606 @@
+/* .main_card {
+  width: 255px !important;
+  height: 254px !important;
+  border-radius: 0px 30px 0px 0px !important;
+  box-shadow: 0px 14px 11px 0px rgba(0, 0, 0, 0.08) !important;
+  margin-left: 30px;
+  border: none;
+}
+
+.card_title {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 6px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card_text {
+  color: #000;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}
+.card_sn {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card_para {
+  color: #000;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 201px;
+  margin-top: 24px;
+}
+.plan_card_btn {
+  display: flex;
+  width: 222px;
+  padding: 12px 74px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 5px;
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 31px;
+}
+
+.plan_head {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 212px;
+  margin-top: 40px;
+}
+.plan_para {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.card-pink {
+  background: #fbcac3 !important;
+}
+
+.card-cream {
+  background: #fdd7aa !important;
+}
+
+.card-gray {
+  background: #cbd7bb !important;
+}
+
+.card-purple {
+  background: #cbbcfb !important;
+}
+*/
+
+/* CircularCheckbox.css */
+
+/* .circular-checkbox {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 143px;
+  cursor: pointer;
+}
+
+.circular-checkbox input {
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: white;
+}  */
+
+.form-check-input:focus {
+  border-color: none;
+  outline: none;
+  box-shadow: none;
+}
+
+/* .form-switch .form-check-input {
+  --bs-form-switch-bg: none;
+  margin-left: 0;
+  background-image: none;
+  background-position: left center;
+  border-radius: 2em;
+  transition: none;
+} */
+.rt1 {
+  margin-top: -32px;
+}
+.plan_card {
+  width: 409px;
+  height: 491px;
+  margin-right: 18px;
+  margin-bottom: 26px;
+  &:hover {
+    background-color: black;
+    .plan_img_div {
+      background-color: #fff;
+    }
+    .head_plan_div,
+    .head_plan_div_para,
+    .plan_para,
+    .plan_para_price,
+    .plan_para_price_span,
+    .plan_para_price_h5,
+    .plan_li {
+      color: #fff;
+    }
+    .plan_li_icon {
+      color: #000;
+    }
+    .plan_btn {
+      background-color: #fff;
+      color: #000;
+      border: none;
+    }
+  }
+}
+
+.billing_div {
+  display: flex;
+}
+.plan_img_div {
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  height: 51.579px;
+  flex-shrink: 0;
+}
+.head_plan_div {
+  color: #000;
+  font-size: 13.395px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14.883px;
+  margin-left: 14px;
+}
+.head_plan_div_para {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 17.86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26.045px;
+}
+.plan_para {
+  width: 264.456px;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 13.395px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.325px;
+  margin-top: -48px;
+}
+.plan_para_price {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 40.184px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49.114px;
+  margin-bottom: 16px;
+}
+.plan_para_price_span {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 14.883px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.371px;
+}
+.plan_para_price_h5 {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  /* font-family: DM Sans; */
+  font-size: 13.395px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14.883px;
+}
+.plan_li {
+  margin-bottom: 10px;
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  /* font-family: DM Sans; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.plan_li_icon {
+  margin-right: 10px;
+  padding: 2px;
+  background: #fff;
+  border-radius: 12px;
+  font-size: 22px;
+}
+.plan_btn {
+  display: flex;
+  width: 100%;
+  height: 46px;
+  padding: 19.348px 28.278px;
+  justify-content: center;
+  align-items: center;
+  gap: 4.465px;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 13.395px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.883px;
+  background: #000;
+}
+/* below card */
+.card_div {
+  display: flex;
+  margin-top: 8px;
+  height: 96px;
+  width: 1110px;
+  margin-left: 30px;
+}
+
+.plan_card_head {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.plan_card_para {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.plan_right_div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -67px;
+  margin-bottom: 20px;
+}
+.plan_img {
+  width: 18px;
+  height: 18px;
+  margin-top: 19px;
+}
+.right_para {
+  margin: 18px 16px 8px 9px;
+  color: #343434;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.right_button {
+  display: flex;
+  width: 132px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+/* purchase planning */
+.purchase_card {
+  width: 709px;
+  height: 342px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background: #fafafa;
+}
+.purchase_head {
+  margin-left: 27px !important;
+  margin-top: 12px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.purchase_li {
+  color: #000;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 286px;
+  height: 26px;
+  margin-bottom: 23px;
+}
+
+/* mid card purchase planning */
+.midcard_div {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 217px;
+}
+.purchase_midcard {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 270px;
+  height: 102px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background: #fafafa;
+  margin-right: 27px;
+}
+.purchase_heading {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.purchase_para {
+  color: #000;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.right_icon {
+  float: right;
+  margin-top: -55px;
+  margin-right: 5px;
+  width: 21px;
+  height: 41px;
+  color: rgba(0, 96, 212, 1);
+}
+
+.purchase_btn {
+  display: flex;
+  width: 65px;
+  height: 18px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #00a707;
+  background: #e7ffe8;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* bottom purchase_card */
+.btm_div {
+  width: 757px;
+  height: 194px;
+  margin-top: 16px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background: #fafafa;
+}
+
+.btm_card_head {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.btm_row {
+  margin-top: 26px;
+}
+.btm_card_para {
+  display: flex;
+  height: 22px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 106px;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -27px;
+}
+.btm_purchse_btn {
+  margin-right: 27px;
+  display: flex;
+  width: 95px;
+  height: 48px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #e5e5e5;
+  border: none;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.btm_purchse_btn2 {
+  display: flex;
+  width: 177px;
+  height: 48px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #06f;
+  color: #fff;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin-right: 22px;
+}
+.btn_btm_div {
+  display: flex;
+  justify-content: end;
+  margin-top: 5px;
+}
+
+/*  */
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  position: absolute;
+  top: 27%;
+  left: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.search-icon svg {
+  width: 20px;
+  height: 20px;
+  color: #666;
+}
+
+.pymnt_searchbox {
+  width: 319px;
+  height: 43px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  padding-left: 42px;
+}
+.monthly-annualy-div {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.plan-margin {
+  margin-left: 13px;
+}
+.plan_title_div {
+  margin-left: 10px;
+}
+.head-plan-div {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_main {
+  padding: 15px;
+}
+@media screen and (max-width: 576px) {
+  .plan_title_div {
+    margin: 20px 0 0 27px;
+  }
+  .billing_div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .head-plan-div {
+    margin-right: 47px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    /* padding: 12px; */
+  }
+  .monthly-annualy-div {
+    display: flex;
+    align-items: center;
+    margin: 98px 0 0 -77px;
+  }
+  .plan_card {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .stu_head {
+    margin-top: 0;
+  }
+  .stu_para {
+    margin-bottom: 0;
+  }
+  .plan-margin {
+    margin: 0;
+  }
+  .cont_main {
+    padding: 20px;
+  }
+  .plan_btn {
+    width: 100%;
+  }
+}

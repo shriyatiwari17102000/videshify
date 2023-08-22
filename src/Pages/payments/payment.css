@@ -1,0 +1,274 @@
+.payment_head {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 212px;
+  margin-top: 40px;
+}
+.payment_para {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+/* navigate button */
+.btn_container {
+  display: flex;
+  height: 45px;
+  border-radius: var(--br);
+  overflow: hidden;
+  margin: 46px 15px 20px;
+  border: 1px solid var(--border);
+  width: max-content;
+  border-radius: 5px;
+}
+.btn_container > button {
+  padding: 0 20px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  border-right: 1px solid var(--sc);
+  width: 142px;
+}
+
+.btn_container > button:hover,
+.activepymnt {
+  background: black !important;
+  color: white;
+}
+
+.pymnt_filter_btn {
+  width: 156px;
+  height: 42px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/*  */
+.pay_p {
+  margin-left: 20px;
+}
+.paymentTransPara {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.pay-card {
+  width: 291px;
+  height: 343px;
+  flex-shrink: 0;
+  border-radius: 9.541px;
+  border: 0.954px solid #d9d9d9;
+  background: #fff;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pay-card-body1 {
+  height: 166px;
+  text-align: center;
+  padding: 26px;
+}
+.pay-card-icon {
+  width: 22.898px;
+  height: 22.898px;
+  flex-shrink: 0;
+}
+.pay-card-body {
+  border-top: 1px solid rgb(204, 204, 204);
+  width: 265px;
+  margin-left: 5px;
+  text-align: center;
+  padding: 20px;
+}
+
+.pay-card-p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14.311px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.pay-card-h {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 52.475px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* CustomRightModal.css */
+
+.right-modal .modal-dialog {
+  margin-left: auto;
+  transform: translateX(100%);
+}
+
+.right-modal.show .modal-dialog {
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+.modal-header-left {
+  position: relative;
+  padding: 22px;
+  padding-left: 65px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 4px;
+  left: 28px;
+  font-size: 33px;
+  cursor: pointer;
+}
+
+/* .modal-dialog {
+  float: right;
+} */
+
+.pymentdetail_title {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.pdt_color {
+  color: #909090;
+}
+.col_pymnt_div {
+  display: flex;
+  justify-content: space-between;
+}
+.pymntdetail_img {
+  width: 61px;
+  height: 61px;
+  margin: 15px;
+}
+.customer_div {
+  margin-left: -125px;
+  margin-top: 23px;
+}
+.customer_div_p {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.customer_div_p2 {
+  color: #696969 !important;
+  font-weight: 500 !important;
+}
+.pymnt_link {
+  text-decoration: underline;
+  margin-right: 35px;
+  margin-top: 20px;
+  color: #2450c2 !important;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline !important;
+}
+.hr_pymnt {
+  width: 109%;
+  margin-left: -16px;
+}
+/* .modal-content {
+  margin-top: -28px;
+  height: 1100px;
+  width: 473px;
+} */
+.pymnt_schedule_title {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+.pymnt_schedule_head {
+  color: #000;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.pymnt_schedule_spanhead {
+  color: #696969;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -15px;
+}
+.pymnt_schedule_txt {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.pymnt_schedule_txt_main {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.pymnt_schedule_btn {
+  display: flex;
+  width: 175px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 10.6rem;
+  margin-top: 27px;
+  flex-shrink: 0;
+}
+.pymnt_footer {
+  display: flex;
+  justify-content: space-between;
+}

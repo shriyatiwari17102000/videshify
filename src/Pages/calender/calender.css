@@ -1,0 +1,602 @@
+.event-container {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  z-index: 0;
+  /* height: 55px; */
+  /* width: 300px; */
+}
+
+.event-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.event-text {
+  display: flex;
+  width: 39px;
+  height: 14px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #58aeff;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 6px;
+}
+.rbc-row-content {
+  position: relative !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  z-index: unset;
+}
+.rbc-header {
+  padding-top: 15px;
+}
+.rbc-month-header {
+  height: 53px;
+}
+/* Add this CSS rule to adjust z-index for calendar cells */
+.rbc-date-cell {
+  z-index: 0; /* Set a lower z-index for calendar cells */
+}
+.rbc-event {
+  background-color: unset !important;
+  z-index: 1;
+}
+.rbc-calendar {
+  width: 100%;
+  height: 100%;
+  z-index: 0 !important;
+  background-blend-mode: 0%;
+}
+.cardCalender {
+  z-index: 1000 !important;
+  position: fixed;
+  /* margin-left: 170px; */
+  margin-top: -40px;
+  width: 307px;
+  height: 391px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.cardCalender_head {
+  background-color: #fff;
+  padding: 19px;
+}
+.cardCalender_title {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cardCalender_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+  height: 18px;
+}
+.cardCalender_txt {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.cardCalender_subtitle {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cardCalender_para {
+  width: 267px;
+  height: 73px;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+}
+.cardCalender_footer {
+  display: flex;
+  padding: 17px;
+  background-color: #fff;
+}
+.cardCalender_cancelbtn {
+  display: flex;
+  width: 117px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #e5e5e5;
+  margin-right: 15px;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+.cardCalender_addbtn {
+}
+
+/*----------------------- Calender Css --------------------- */
+
+.add_schedule_btn {
+  display: flex;
+  width: 206px;
+  height: 46px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 65px;
+  margin-top: 35px;
+}
+.radio_input {
+  width: 11px !important;
+  height: 11px !important;
+  margin-left: -191px !important;
+  margin-right: 18px !important;
+}
+.s1 {
+  width: 339.806px !important;
+  height: 48px !important;
+  border-radius: 6px !important;
+  border: 1px solid #d9d9d9 !important;
+  background: #fff !important;
+  background: #f8f8f8 !important;
+  color: #000 !important;
+  font-family: Inter !important;
+  font-size: 10px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+/* ------------------ListView Css---------------------- */
+
+.list_heading {
+  color: #ff002a;
+  font-family: Inter;
+  font-size: 14.006px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 46px 0px 35px 22px;
+}
+.list_card {
+  width: 1064px;
+  height: 177px;
+  margin-top: 26px;
+}
+.list_card_bdy {
+  margin-left: 12px;
+  padding: 19px;
+}
+.list_card_title {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 8px;
+}
+.list_card_para {
+  display: flex;
+  margin-top: 29px;
+  width: 946px;
+  height: 36px;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex-shrink: 0;
+}
+.list_p2 {
+  /* width: 137px; */
+  margin-top: 8px !important;
+  display: flex;
+  justify-content: space-between;
+}
+/* styles.css */
+.custom-button {
+  color: black;
+  background-color: white;
+  border: 1px solid #d9d9d9; /* Add border style */
+  border-radius: 5px; /* Add border radius */
+  box-shadow: none;
+  outline: none;
+  &:hover {
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+  }
+  &:focus {
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+  }
+}
+
+.custom-button.active,
+.custom-button:focus {
+  background-color: black;
+  color: white;
+  border: 1px solid black; /* Add border style */
+  border-radius: 5px; /* Add border radius */
+}
+.list_icon {
+  margin-right: 17px;
+  width: 17px;
+  height: 17px;
+}
+.list_btn1 {
+  display: flex;
+  width: 134px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  background: #f9f9f9;
+  color: #000;
+  font-family: Inter;
+  font-size: 12.01px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+.list_btn2 {
+  display: flex;
+  width: 113px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12.01px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex-shrink: 0;
+  margin-right: 35px;
+}
+
+/* ///////////  */
+/* DateContainer.css */
+
+.date-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space evenly between icons and date row */
+  align-items: center;
+}
+
+.date-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: -4px;
+}
+
+.day-row,
+.date-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+}
+
+.day-item {
+  margin: 13px;
+  color: #2a2a2a;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  line-height: normal;
+  border-radius: 5px;
+  /* background: #f8f8f8; */
+  width: 36px;
+  height: 35px;
+  position: relative;
+}
+
+.date-item {
+  /* margin: 4px 20px 20px 20px; */
+  margin: 13px;
+  color: #2a2a2a;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  line-height: normal;
+  border-radius: 5px;
+  background: #f8f8f8;
+  width: 36px;
+  height: 35px;
+  position: relative;
+}
+
+.icon-column button {
+  padding: 0;
+}
+
+.icon-column button:hover {
+  background-color: transparent;
+}
+
+.icon-column svg {
+  font-size: 24px;
+}
+.date_before_icon {
+  position: absolute;
+  /* left: 248px; */
+  left: 27.1%;
+  top: 31.8%;
+  width: 5px;
+  height: 7px;
+}
+.date_after_icon {
+  position: absolute;
+  right: 6.3%;
+  top: 32.4%;
+  /* padding: 10px; */
+  width: 5px;
+  height: 7px;
+  /* background-color: green; */
+  /* color: white; */
+}
+.left_calicon {
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  /* position: absolute; */
+  width: 15px;
+  height: 14px;
+  border: none;
+  background: black;
+  margin-top: 58px;
+  margin-left: 35px;
+  &:hover {
+    background-color: #000;
+  }
+}
+.right_calicon {
+  /* position: absolute; */
+  background: black;
+  height: 14px;
+  width: 15px;
+  right: 85px;
+  top: 106px;
+  padding: 10px;
+  margin-top: 67px;
+  margin-right: 36px;
+  &:hover {
+    background-color: #000;
+  }
+}
+
+/* .mbsc-schedule-time-wrapper,
+.mbsc-schedule-item {
+  height: 100px;
+}
+.mbsc-ios.mbsc-calendar-width-md .mbsc-schedule-time {
+  height: 100px !important;
+} */
+
+.mbsc-schedule-time-wrapper,
+.mbsc-schedule-item {
+  height: 100px !important;
+}
+.mbsc-windows.mbsc-schedule-event {
+  height: 3.3% !important;
+}
+.mbsc-windows a {
+  font-size: 13px !important;
+  margin-left: 58rem !important;
+  margin-top: -54px !important;
+  color: white !important;
+}
+a:not([href]):not([class]) {
+  display: none !important;
+}
+
+.mbsc-windows.mbsc-eventcalendar {
+  width: 1108px !important;
+  height: 1172px !important;
+}
+.mbsc-windows.mbsc-calendar-width-md .mbsc-calendar-title {
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+.conselor_head {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 212px;
+  margin-top: 40px;
+}
+.conselor_para {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+/* media query */
+@media (min-width: 320px) and (max-width: 480px) {
+  .route_home {
+    color: #a3a3a3;
+    font-family: Inter;
+    font-size: 10.006px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .route_home_span {
+    margin: -2.5px 8px;
+  }
+  .route_home2 {
+    margin-top: 5px;
+    color: #000;
+    font-family: Inter;
+    font-size: 10.006px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .counselor_head {
+    margin-left: 19px;
+    display: flex;
+  }
+
+  .side_btn {
+    display: flex;
+    margin-top: 40px;
+    margin-left: -50px;
+  }
+  .list_btn1,
+  .list_btn2 {
+    font-size: 6.01px;
+    width: 56px;
+    height: 25px;
+  }
+  .list_btn1_img {
+    width: 10px;
+  }
+  .card_div_conselor {
+    background-color: white;
+    width: 311px;
+    height: 1163px;
+  }
+  .card_div_conselor2 {
+    margin-left: 10px;
+  }
+  .card_div_conselor3 {
+    width: 172px;
+    height: 37px;
+    margin-top: 30px;
+  }
+
+  .custom-button {
+    color: #000;
+    font-family: Inter;
+    font-size: 9.006px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 127px;
+  }
+  .list_card {
+    width: 291px;
+    height: 196px;
+    margin-top: 26px;
+  }
+  .list_card_bdy {
+    margin-left: -1px;
+    padding: 19px;
+  }
+  .list_card_title {
+    font-size: 11px;
+    margin-top: 0px;
+  }
+  .list_card_para {
+    width: 248px;
+    height: 36px;
+    font-size: 8px;
+  }
+  .list_p2 {
+    margin-top: 42px !important;
+  }
+  .card_p_counselor {
+    width: 85px;
+  }
+  .card_link_counselor {
+    margin-left: 25px;
+    display: flex;
+    width: 112px;
+  }
+  .card_links2_counselor {
+    margin-top: 33px;
+    margin-left: -43px;
+    display: flex;
+  }
+  .card_icon_link_con {
+    margin-top: 2px;
+    margin-left: 3px;
+  }
+}

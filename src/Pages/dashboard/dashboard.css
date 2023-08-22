@@ -1,0 +1,742 @@
+/* .paragraph {
+  color: #a3a3a3;
+  font-family: Inter;
+  font-size: 14.006px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.paragraphSpan {
+  color: #000;
+  font-family: Inter;
+  font-size: 14.006px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.mainSection {
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px 20px;
+  border: 1px solid #d9d9d9;
+  background-color: var(--main-color);
+
+  & p {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 400;
+  }
+
+  & h6 {
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.boxSetion {
+  display: flex;
+  gap: 40px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 1px solid #d9d9d9;
+  background-color: var(--main-color);
+
+  & p {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  & h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  & h6 {
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+.boxborder {
+  border-right: 1px solid #d9d9d9;
+}*/
+
+/* -------graphSection--------- */
+
+/*.graphsection {
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  box-shadow: 0px 8px 8px 0px rgba(33, 52, 48, 0.08);
+
+  & p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px;
+    margin: 0;
+  }
+}
+
+.apexcharts-toolbar {
+  display: none !important;
+}
+
+.studentnumber {
+  height: 342px;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #d9d9d9;
+  background-color: var(--main-color);
+}
+
+.studentdata {
+  border-bottom: 1px solid #d9d9d9;
+
+  & p {
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & h6 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 400;
+  }
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studentcounsil p {
+  padding-top: 15px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.studentcounsil h6 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 55px;
+  font-weight: 400;
+}
+*/
+
+/* --------lower-box-section------------ */
+
+/*.lowerbox {
+  margin: 20px 0;
+  border-radius: 10px;
+  background: #ffe1dd;
+  padding: 10px 20px;
+  border: 1px solid #d9d9d9;
+
+  & p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & h6 {
+    margin-bottom: 28px;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 400;
+  }
+}
+
+.planbox {
+  margin: 20px 0;
+  display: flex;
+  border-radius: 10px;
+  color: var(--main-color);
+  background-color: var(--primary-color);
+}
+
+.planchildbox {
+  border-right: 1px solid #d9d9d9;
+  margin: 10px 40px;
+  padding-right: 30px;
+
+  & p {
+    margin: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & h1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 400;
+  }
+
+  & h6 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.purchasebox {
+  margin: 10px 40px;
+
+  & p {
+    margin: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & h1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 400;
+  }
+
+  & h6 {
+    width: 260px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+*/
+/* ---------mediaQueries---------- */
+
+/*@media screen and (max-width: 568px) {
+  .mainSection {
+    width: 96%;
+    margin-bottom: 10px;
+  }
+
+  .boxSetion {
+    width: 96%;
+  }
+
+  .graphsection {
+    width: 97%;
+  }
+
+  .dashSection {
+    padding: 0;
+  }
+
+  .studentinformation {
+    padding: 0;
+  }
+
+  .studentnumber {
+    width: 97%;
+  }
+
+  .lowerbox {
+    width: 97%;
+  }
+}
+*/
+/* card css */
+/*.route_p {
+  margin-top: 33px;
+  margin-left: 25px;
+}
+.route_p_dash {
+  color: #a3a3a3;
+  font-family: Inter;
+  font-size: 14.006px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.route_p_home {
+  color: #000;
+  font-family: Inter;
+  font-size: 14.006px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.mainCards {
+  width: 340px;
+  height: 187px;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 33px;
+}
+.cardHead {
+  color: var(--grey-03, #747474);
+  font-family: Inter;
+  font-size: 14.006px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 23px;
+}
+.cardH4 {
+  margin-top: 20px;
+}
+.cardTxtNo {
+  color: #00b2ff;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cardTxtPara {
+  color: #000;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cardBtm {
+  color: var(--grey-03, #747474);
+  font-family: Inter;
+  font-size: 14.006px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+*/
+/* right-section-card */
+/*.rightsideCard {
+  width: 358px;
+  height: 375px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+  margin-bottom: 27px;
+}
+.right_img {
+  height: 123px;
+  width: 123px;
+  border-radius: 123px;
+  margin-left: 117px;
+  margin-top: 32px;
+}
+.right_title {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.rightside_text {
+  color: var(--grey-03, #747474);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 300px;
+}
+.rightside_p {
+  color: #00b2ff;
+ 
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  text-align: center;
+}
+.btm_cardimg {
+  width: 45px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 100%;
+  background: rgba(234, 234, 234, 1);
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.btm_rightcard {
+  width: 358px;
+  height: 301px;
+}
+.btmcard_para {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 310px;
+  height: 119px;
+  margin-left: 7px;
+  margin-top: 4px;
+}
+.btmcard_btn {
+  border-radius: 0px 0px 6px 6px;
+  background: #00b2ff;
+  width: 357px;
+  height: 62px;
+  margin-left: -16px;
+  margin-top: 13px;
+  text-align: left;
+  border: none;
+}
+*/
+/* chart */
+.chart_header {
+  color: #000;
+  font-family: Inter;
+  font-size: 14.34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 37px;
+  padding-top: 24px;
+}
+.chart_main_div {
+  width: 778px;
+  height: 343px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+  margin-left: 13px;
+}
+
+.dash_div {
+  display: flex;
+  margin-top: 43px;
+}
+
+/* .btm_dash_div {
+  height: 145px;
+  width: 719px;
+  margin-top: 30px;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+} */
+
+@media only screen and (min-width: 411px) and (max-width: 676px) {
+  .dash_div {
+    display: flex;
+    margin-top: 43px;
+    margin-left: -30px;
+  }
+  .mainCards {
+    width: 168px;
+    height: unset;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 33px;
+  }
+  .right_div {
+    margin-left: 8px !important;
+    margin-top: 1rem !important;
+  }
+  .chart_main_div {
+    width: 355px;
+    height: 243px;
+    margin-top: 15px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+    margin-left: 10px !important;
+  }
+  .canvas {
+    margin-left: 8px !important;
+    box-sizing: border-box;
+    display: block;
+    height: 172px;
+    width: 345px;
+  }
+  .btm_dash_div {
+    height: 145px;
+    width: 347px;
+    margin-top: 30px;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+    margin-left: 16px;
+  }
+}
+
+/* top */
+.dash_card {
+  width: 322px;
+  height: 209px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  flex-shrink: 0;
+}
+.dash_card_title {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 13px;
+}
+.dash_card_titleleft {
+  /* color: #000; */
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 13px;
+  width: 175px;
+}
+.dash_card_head {
+  /* color: #000; */
+  text-align: center;
+  font-family: Inter;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+.dash_card_para {
+  /* color: #000; */
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px;
+  /* width: 270px; */
+  /* margin-left: 5px; */
+}
+.dash_c_p {
+  margin-left: 34px !important;
+}
+.dash_right_card {
+  width: 738px;
+  height: 209px;
+  margin-right: 6px;
+}
+.dash_right_card1 {
+  width: 368px;
+}
+.btm_dash_div {
+  background-color: #000;
+}
+.btm_dash_p {
+  color: white;
+}
+
+/* -------graphSection--------- */
+.studentnumber {
+  height: 342px;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #d9d9d9;
+  background-color: var(--main-color);
+}
+.studentinformation {
+  width: 326px;
+  height: 342px;
+}
+
+.studentdata {
+  border-bottom: 1px solid #d9d9d9;
+
+  & p {
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & h6 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 400;
+  }
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studentcounsil p {
+  padding-top: 15px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.studentcounsil h6 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+/* --------lower-box-section------------ */
+
+.lowerbox {
+  margin: 20px 0;
+  border-radius: 10px;
+  background: #ffe1dd;
+  padding: 10px 20px;
+  border: 1px solid #d9d9d9;
+
+  & p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & h6 {
+    margin-bottom: 28px;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 400;
+  }
+}
+
+.planbox {
+  margin: 20px 0;
+  display: flex;
+  border-radius: 10px;
+  color: var(--main-color);
+  background-color: var(--primary-color);
+}
+
+.planchildbox {
+  border-right: 1px solid #d9d9d9;
+  margin: 10px 40px;
+  padding-right: 30px;
+
+  & p {
+    margin: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & h1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 400;
+  }
+
+  & h6 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.purchasebox {
+  margin: 10px 40px;
+
+  & p {
+    margin: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & h1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 400;
+  }
+
+  & h6 {
+    width: 260px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.my_class {
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background: #ffe1dd;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.my_class2 {
+  background: black;
+  border: 1px solid black;
+  color: white;
+}

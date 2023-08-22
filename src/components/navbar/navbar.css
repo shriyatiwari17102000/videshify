@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@800&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Prata&display=swap");
+
+/* .logo {
+  display: none;
+}
+
+.search {
+  width: 600px;
+  height: 43px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  margin-left: 23px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  border-radius: 50px;
+  background-color: #f9f9f9;
+}
+
+.error {
+  text-align: center;
+  margin: 9px;
+  font-size: 22px;
+}
+
+.calendar-nav {
+  text-align: center;
+  margin: 9px;
+  font-size: 18px;
+}
+
+.main-section-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.header-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0 0 30px;
+
+  & h6 {
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    padding-top: 7px;
+  }
+} */
+
+.downarrow_nav {
+  color: black !important;
+  width: 15px !important;
+  height: 15px !important;
+  flex-shrink: 0 !important;
+}
+.top-nav {
+  color: #fff !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 10px !important;
+  height: 43px !important;
+  box-shadow: none;
+  margin: 20px 25px 0;
+}
+
+.search-bar {
+  display: flex !important;
+  align-items: center !important;
+  background-color: #fff !important;
+  border-radius: 5px !important;
+  padding: 5px 10px !important;
+  width: 620px !important;
+  height: 43px !important;
+}
+
+.navsearch-icon {
+  margin-right: 5px !important;
+  color: #333 !important;
+}
+
+.search-bar input[type="text"] {
+  border: none;
+  background-color: transparent;
+  color: #333;
+  outline: none !important;
+}
+
+.nav-right {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.nav-icon {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 3px !important;
+}
+
+.topbar_icon {
+  display: flex !important;
+  width: 39px !important;
+  height: 38px !important;
+  padding: 9.4px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+  background: rgba(234, 234, 234, 1) !important;
+  border-radius: 100% !important;
+  margin-right: 20px !important;
+}
+.set_icn {
+  width: 37px !important;
+  height: 37px !important;
+  padding: 1.4px !important;
+}
+.topbar_para {
+  color: #000 !important;
+  font-size: 12.01px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  width: 111px !important;
+  height: 15px !important;
+  margin-left: 12px !important;
+  margin-top: 14px;
+}
+/* ---------mediaQueries---------- */
+
+@media screen and (max-width: 576px) {
+  .logo {
+    display: block;
+    text-align: end;
+    padding-right: 20px;
+  }
+
+  .input-box {
+    display: none;
+  }
+
+  .main-section-nav {
+    display: none;
+  }
+
+  .header-profile {
+    display: none;
+  }
+}
+
+/* breadcrumb */
+
+.status {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 0 15px 20px;
+
+  & p {
+    color: #a3a3a3;
+    font-family: Inter;
+    font-size: 14.006px;
+    font-weight: 500;
+  }
+
+  & span {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 14.006px;
+    font-weight: 500;
+  }
+}
+
+.sidebar_btn{
+  /* display: flex; */
+  flex-direction: column;
+  row-gap: 5px;
+  border: none;
+margin-left: 10px;
+cursor:pointer;
+
+  display: none;
+}
+
+.sidebar_btn > div{
+
+  width: 25px;
+  background: rgb(103, 103, 103);
+  height: 3px;
+}
+
+@media screen and (max-width: 1000px) {
+  .right-aside {
+    padding: 0px 0 0 0px;
+
+}
+
+.humberger-menu{
+  display: none;
+}
+
+
+.top-nav {
+    height: 60px !important;
+    background: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    margin: 0;
+}
+
+.sidebar_btn{
+  display: flex;
+}
+
+
+
+.topbar_icon {
+    display: none !important;
+}
+.search-bar{
+  display: none !important;
+}
+}

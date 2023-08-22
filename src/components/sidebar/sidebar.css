@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,400;1,300;1,400;1,700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+.item1 {
+  margin-left: 0;
+  height: 100%;
+  position: relative;
+}
+
+.humberger-menu {
+  display: none;
+}
+
+#sidebar li a:hover {
+  color: #fff;
+}
+
+nav {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: var(--main-color3);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  display: table;
+  padding: 5px 0;
+  color: rgb(237, 237, 242);
+  text-decoration: none !important;
+}
+
+.fas {
+  width: 38px;
+  height: 20px;
+  font-size: 18px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.fas:active {
+  color: aliceblue;
+}
+
+nav ul p {
+  margin: 0 2px 8px;
+  color: #989898;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+nav li {
+  width: 80%;
+  list-style: none;
+  font-weight: normal;
+  border-radius: 5px;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+}
+
+nav li:hover {
+  text-align: center;
+  list-style: none;
+  text-align: center;
+  background-color: #a0a4a247;
+}
+
+nav li.active {
+  font-weight: bold;
+  color: var(--main-color);
+  background: var(--primary-color);
+}
+
+nav li.active a {
+  font-weight: bold;
+}
+
+nav li.active span {
+  color: #fff;
+}
+
+nav li.active .fas {
+  color: #00b2ff;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: inherit;
+  font-family: inter;
+  color: var(--primary-color);
+}
+
+h3.logo {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  margin: 25px 50px;
+}
+
+.logo-link {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Poppins;
+  color: #2d3e52;
+}
+
+.h-ngo {
+  font-family: "Prata", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--main-color);
+  padding-right: 60px;
+}
+
+footer {
+  background-color: #eae3e3;
+}
+
+footer h2 {
+  margin: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer-section {
+  width: 250px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.cut-btn {
+  display: none;
+}
+.top {
+  margin-bottom: 35px;
+  height: 50px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 30px;
+}
+
+/* -------media-Query-------  */
+
+@media screen and (max-width: 568px) {
+  .closeMenu {
+    position: fixed;
+    top: 0px;
+    left: 1px;
+    font-size: 40px;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  .fas {
+    width: 50px;
+    height: 25px;
+  }
+
+  nav li {
+    width: 100%;
+    padding: 5px 5px;
+  }
+
+  .btn-log button {
+    display: none;
+  }
+  .cut-btn {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 30px;
+  }
+}
+
+/* -------media-Query-------  */
+@media screen and (max-width: 768px) {
+  .closeMenu {
+    display: none;
+  }
+
+  .logo-link {
+    font-size: 18px;
+  }
+  .cut-btn {
+    display: block;
+  }
+}
+
+/*  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,400;1,300;1,400;1,700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+/* General styles for the sidebar */
+.item1 {
+  margin-left: 0;
+  height: 100%;
+  position: relative;
+}
+
+.humberger-menu {
+  display: none;
+}
+
+#sidebar li a:hover {
+  color: #fff;
+}
+
+nav {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: var(--main-color3);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  display: table;
+  padding: 5px 0;
+  color: rgb(237, 237, 242);
+  text-decoration: none !important;
+}
+
+.fas {
+  width: 38px;
+  height: 20px;
+  font-size: 18px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.fas:active {
+  color: aliceblue;
+}
+
+nav ul p {
+  margin: 0 2px 8px;
+  color: #989898;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+nav li {
+  width: 80%;
+  list-style: none;
+  font-weight: normal;
+  border-radius: 5px;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+}
+
+nav li:hover {
+  text-align: center;
+  list-style: none;
+  text-align: center;
+  background-color: #a0a4a247;
+}
+
+nav li.active {
+  font-weight: bold;
+  color: var(--main-color);
+  background: var(--primary-color);
+}
+
+nav li.active a {
+  font-weight: bold;
+}
+
+nav li.active span {
+  color: #fff;
+}
+
+nav li.active .fas {
+  color: #00b2ff;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: inherit;
+  font-family: inter;
+  color: var(--primary-color);
+}
+
+h3.logo {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  margin: 25px 50px;
+}
+
+.logo-link {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Poppins;
+  color: #2d3e52;
+}
+
+.h-ngo {
+  font-family: "Prata", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--main-color);
+  padding-right: 60px;
+}
+
+.another-nav-section {
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #eae3e3;
+}
+
+footer h2 {
+  margin: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer-section {
+  width: 250px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+/* By me */
+@media screen and (max-width: 1000px) {
+  h3.logo {
+    margin: 25px 26px;
+    padding: 0;
+  }
+
+  .item1 {
+    width: 100%;
+    height: max-content;
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+  nav ul {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #ffffff;
+  --primary-color: #000000;
+  --secondary-color: #00b2ff;
+}
+
+.body-wrapper {
+  width: auto;
+  display: flex;
+  background: var(--main-color);
+}
+
+.grid-container {
+  height: 100vh;
+  display: grid;
+  overflow-x: hidden;
+  grid-template-columns: 22% 78%;
+}
+
+.right-aside {
+  padding: 25px;
+  background-color: #f3f3f3;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.right-aside::-webkit-scrollbar {
+  display: none;
+}
+
+/* --------media Query------ */
+
+@media screen and (max-width:1000px) {
+  .grid-container {
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .sidebar-container {
+    position: fixed;
+    left: -500px;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    background: var(--main-color);
+    transition: 0.3s ease-in-out;
+  }
+
+  .sidebar-container.active {
+    left: 0px;
+    width: 100%;
+  }
+
+  .grid-container {
+    grid-template-columns: 100%;
+  }
+
+  .right-aside {
+    padding: 15px 0 0 0px;
+  }
+}
+
+/* model css
+/* CustomAccordion.css */
+/* .accordion-button {
+  background-color: red !important;
+}  */

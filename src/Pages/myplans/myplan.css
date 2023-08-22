@@ -1,0 +1,171 @@
+.myplancard-header {
+  height: 78px;
+  background-color: rgb(255, 255, 255);
+}
+.myplan-p {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12.029px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -5px;
+}
+.myplan_card {
+  width: 349px;
+  height: 430px;
+  margin-right: 24px;
+}
+.myplan-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.badges {
+  display: flex;
+  width: 69.77px;
+  padding: 4.01px;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  gap: 8.02px;
+  border-radius: 13.633px;
+  border: 0.802px solid #00a707;
+  background: #e4ffd8 !important;
+  color: #00a707;
+  font-family: Inter;
+  font-size: 8.02px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.myplan-ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 30px;
+  margin-top: 18px;
+}
+.myplan_para_list {
+  color: #2a2a2a;
+  font-family: Inter;
+  font-size: 12.623px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.myplan-footer {
+  background-color: white;
+  padding: 23px;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 10.317px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* border-radius: 0 0 7.218px 7.218px !important; */
+  /* border: 0.802px solid #d9d9d9; */
+  background: #fff;
+}
+
+.myplan-bdy-div {
+  border-left: 1px solid #d9d9d9;
+  height: 145px;
+}
+
+/* Custom checkbox styles */
+.form-check-input:checked {
+  background-color: black !important;
+  color: color !important;
+  box-shadow: unset !important;
+  border: none !important;
+}
+.custom-checkbox .form-check-label {
+  margin-left: 6px;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.form-check-input[type="checkbox"] {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 2px !important;
+  margin-top: 8px !important;
+}
+.plan-modal .modal_bdy {
+  margin-bottom: 37px;
+}
+@media screen and (max-width: 576px) {
+  .date-picker-button-container {
+    margin-left: 4px;
+  }
+  .date-picker-button {
+    width: 140%;
+    font-size: 10px;
+  }
+
+  .search-container {
+    display: flex;
+    margin-top: 27px;
+  }
+
+  .booking_searchbox {
+    width: 100%;
+  }
+  .myplan-header_div {
+    display: flex;
+    margin-top: 78px;
+    justify-content: space-between;
+    margin: 32px 4px;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+  }
+  .myplan_card {
+    width: 100%;
+    height: 100%;
+  }
+  .myplan-div {
+    padding: 20px;
+  }
+  .myplan-upperdiv {
+    padding: 20px;
+  }
+  .dash_c_p {
+    margin: 0;
+    width: 100%;
+  }
+  .dash_card_head {
+    font-size: 37px;
+  }
+  .myplan-bdy {
+    border-top: 1px solid #ccc;
+    width: 90%;
+    margin-left: 16px;
+  }
+  .dash_right_card1 {
+    width: 100%;
+  }
+  .dash_right_card {
+    width: 100%;
+    margin-top: 17px;
+  }
+  .dash_card_para {
+    width: 100%;
+    margin: 0;
+  }
+  .dash_card {
+    width: 100%;
+    height: 100%;
+  }
+  .card-row {
+    padding: 20px;
+  }
+  .myplan-margin {
+    margin: 0;
+  }
+  .myplan-bdy-div {
+    border: none;
+  }
+}

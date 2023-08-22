@@ -1,0 +1,85 @@
+.heading {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 7px;
+  margin-top: 9px;
+}
+
+.addteam_btn {
+  width: 202px;
+  height: 107px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #ebebeb;
+  border: none;
+  font-size: 34px;
+  color: rgba(130, 130, 130, 1);
+}
+.edit_profile_div {
+  border-radius: 5px;
+  background: #fff;
+  padding: 9px 34px;
+}
+.profile_container {
+  background-color: white;
+  padding: 1px 40px 95px;
+  margin: 14px;
+  border-radius: 5px;
+  /* height: 100%; */
+}
+.flex {
+  display: flex;
+  /* gap: 30px; */
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  /* padding: 40px; */
+}
+.video_img {
+  position: relative;
+  margin-top: -150px;
+  left: 50%;
+}
+
+.input_div {
+  width: 31%;
+}
+.card_div {
+  display: flex;
+}
+.img_container {
+  position: relative;
+  text-align: center;
+  color: Black;
+  margin-top: 86px;
+}
+.top_left {
+  position: absolute;
+  top: -46px;
+  left: 78px;
+  font-size: 46px;
+  background: #dfddff;
+  /* padding: 20px; */
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  padding-top: 22px;
+  font-weight: 400;
+}
+.heading_left {
+  position: absolute;
+  top: 73px;
+  left: 78px;
+  font-size: 15px;
+  font-weight: 600;
+}
+@media screen and (max-width: 900px) {
+  .flex {
+    width: 100%;
+  }
+
+  .flex > div {
+    width: 100%;
+  }
+}

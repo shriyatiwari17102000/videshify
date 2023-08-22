@@ -1,0 +1,321 @@
+.status {
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px 0 5px;
+
+  & p {
+    color: #a3a3a3;
+    font-family: Inter;
+    font-size: 14.006px;
+    font-weight: 500;
+  }
+
+  & span {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 14.006px;
+    font-weight: 500;
+  }
+}
+
+/* -----------NavigateSection---------- */
+
+.academictabsection {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+}
+
+.leftSection {
+  width: 100%;
+  height: 160px;
+  padding: 25px;
+  background: #c0adfb;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  & h6 {
+    color: #1b006e;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}
+
+.progress {
+  display: flex;
+  gap: 20px;
+
+  & p {
+    color: #1b006e;
+    font-family: Inter;
+    font-size: 16.798px;
+    font-weight: 600;
+    padding-right: 50px;
+    margin: 5px;
+    border-right: 2px solid;
+  }
+
+  & span {
+    color: #1b006e;
+    font-family: Inter;
+    font-size: 11.198px;
+    font-weight: 500;
+  }
+}
+
+.lastpara p {
+  border-right: none;
+}
+
+.RightSection {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  background: #c0adfb;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.manlogo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.acdemicSection {
+  width: 100%;
+  height: 220px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px 10px;
+
+  & h6 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  & p {
+    color: #1b006e;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  & button {
+    width: 111.429px;
+    height: 30px;
+    color: #1b006e;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    background: #e8e1ff;
+  }
+}
+
+.academictable table {
+  width: 95%;
+  margin-left: 25px;
+  outline: 1px solid #dedede;
+
+  & thead {
+    text-align: center;
+    height: 45px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  & tbody {
+    text-align: center;
+  }
+}
+
+/* // box_Section  // */
+
+.mainBox {
+  width: 98%;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.box_section {
+  height: 216px;
+  border-radius: 5px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  border: 1px solid var(--grey-06, #dedede);
+}
+
+.actSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+  & h6 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  & p {
+    color: #2900a9;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.dot {
+  color: #dbd8d8;
+}
+
+.box_table {
+  width: 97%;
+  height: 92px;
+  border-radius: 5px;
+  margin: 0 auto;
+  border: 1px solid var(--grey-06, #dedede);
+}
+
+.main_box_test {
+  width: 54%;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+
+  & p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  & span {
+    color: #989898;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+/* // Add Test // */
+/* .add_test_form {
+  margin-left: 20px !important;
+} */
+.modal_bdy {
+  margin-top: 57px;
+}
+.mdl_footer {
+  width: 105.1%;
+  margin-left: -19px;
+}
+.add_test_head {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -15px;
+  /* margin-left: 20px; */
+}
+.add_test_para {
+  color: #2900a9;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 15px;
+  margin-top: -9px;
+}
+.input_label {
+  margin-top: 30px;
+  margin-bottom: 14px !important;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.input_box {
+  width: 329px;
+  height: 37px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.s1 {
+  width: 329.806px !important;
+  height: 48px !important;
+  border-radius: 6px !important;
+  border: 1px solid #d9d9d9 !important;
+  background: #fff !important;
+  background: #f8f8f8 !important;
+  color: #000 !important;
+  font-family: Inter !important;
+  font-size: 10px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+.radio_input {
+  width: 11px !important;
+  height: 11px !important;
+  margin-left: -214px !important;
+  margin-right: 18px !important;
+}
+.modal_cancelbtn {
+  display: flex;
+  width: 83px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #e5e5e5;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: navajowhite;
+}
+.modal_addbtn {
+  display: flex;
+  width: 138px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.status {
+  margin-left: 21px;
+}

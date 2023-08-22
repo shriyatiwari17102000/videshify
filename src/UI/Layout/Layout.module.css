@@ -1,0 +1,30 @@
+.bg{
+    background: #f3f3f3;
+}
+
+.expanded {
+    left: 0 !important;
+    z-index: 100 !important;
+    width: 100%;
+}
+
+
+@media screen and(max-width:1000px){
+    .sb {
+        position: fixed;
+        z-index: 1000;
+        background: white;
+        width: 100%;
+        left: -100%;
+        animation: 2s linear;
+        top: 0;
+        left: 0;
+        overflow: scroll;
+        height: 100vh;
+    }
+
+    
+}
+
+
+

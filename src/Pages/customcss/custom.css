@@ -1,0 +1,166 @@
+.accordion-button {
+  border-radius: 6px !important;
+  background: #eee !important; /* Change this to your desired text color */
+  /* font-family: Inter !important;
+  font-weight: 500 !important;
+  font-size: 15px !important; */
+  height: 53px !important;
+}
+.accordion_header {
+  font-family: Inter !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+
+/* modal css */
+
+.modal_bdy {
+  margin-bottom: 70px;
+}
+.modal_title {
+  width: 330px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* margin-top: 10px;
+  margin-left: 6px; */
+}
+
+.p_mj {
+  color: #5c3200 !important;
+  margin: -1px 0 22px 16px !important;
+}
+.pi_title {
+  margin-left: 38px;
+  margin-top: 34px;
+}
+.pi_para {
+  color: #5c3200 !important;
+  margin-left: 38px !important;
+}
+.modal_para {
+  color: #68015b;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* margin: -1px 0 22px 20px; */
+}
+.modal_label {
+  width: 215px;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 13px;
+  margin-top: 30px;
+}
+
+.modal_cancelbtn {
+  display: flex;
+  width: 83px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #e5e5e5;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: navajowhite;
+}
+.modal_addbtn {
+  display: flex;
+  width: 138px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* booking */
+.booking_main {
+  height: 158px;
+  width: 257px;
+  margin-right: 30px;
+  border-radius: 14px;
+  box-shadow: 0px 14px 11px 0px rgba(0, 0, 0, 0.08);
+}
+.booking_title {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.booking_amount_para {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.booking_btn {
+  display: flex;
+  width: 149px;
+  height: 24px;
+  padding: 5.042px;
+  justify-content: center;
+  align-items: center;
+  gap: 5.042px;
+  border-radius: 25.21px;
+  border: 0.504px solid #000;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 7.563px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 36px;
+}
+/*  */
+.web_head {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 15px;
+}
+.web_para {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
